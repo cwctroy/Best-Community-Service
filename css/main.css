@@ -279,14 +279,14 @@ textarea {
   font-size: 2em;
 }
 
-.image {
+.bordered-content {
   border-style: dotted;
   border-color: #555555;
   text-align: center;
   line-height: 30vw;
 }
 
-.body-text {
+.body-content {
   height: 10em;
   text-align: center;
   line-height: 10em;
@@ -297,8 +297,19 @@ textarea {
   line-height: 30vw;
 }
 
+.large-text {
+  text-align: center;
+  font-size: 2em;
+  line-height: 30vw;
+}
+
 .container {
   max-width: 1000px;
+  padding-bottom: 10px;
+}
+
+.btn-group {
+  padding-bottom: 10px;
 }
 
 
